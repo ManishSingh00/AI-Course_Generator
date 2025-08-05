@@ -93,7 +93,7 @@ function CourseLayout() {
       {/* List of Lesson  */}
         <ChapterList course={course} refreshData={()=>GetCourse()}/>
 
-      <Button onClick={GenerateChapterContent} className="my-10 bg-blue-500 text-white hover:bg-blue-200">Generate Course Content</Button>
+      <Button onClick={GenerateChapterContent} className="my-10 bg-blue-400 text-white hover:bg-blue-700">Generate Course Content</Button>
     </div>
   )
 }

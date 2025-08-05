@@ -128,7 +128,7 @@ function CreateCourse  () {
               <div className="flex flex-col items-center w-[10px] md:w-[100px]">
                 <div
                   className={`bg-gray-200 p-3 rounded-full text-white ${
-                    activeIndex >= index && "bg-blue-500"
+                    activeIndex >= index && "bg-purple-500"
                   }`}
                 >
                   {item.icon}
@@ -138,7 +138,7 @@ function CreateCourse  () {
               {index != StepperOptions?.length - 1 && (
                 <div
                   className={`h-1 w-[50px] md:w-[100px] rounded-full lg:w-[170px] bg-gray-300 
-                ${activeIndex >= index && "bg-blue-500"}`}
+                ${activeIndex >= index && "bg-purple-500"}`}
                 ></div>
               )}
             </div>
@@ -156,7 +156,7 @@ function CreateCourse  () {
         <div className="flex justify-between mt-10">
           <Button
             variant="outline"
-            className="bg-blue-500 text-white hover:bg-blue-200"
+            className=" bg-blue-400 text-white hover:bg-blue-700"
             disabled={activeIndex == 0}
             onClick={() => setActiveIndex(activeIndex - 1)}
           >
@@ -164,7 +164,7 @@ function CreateCourse  () {
           </Button>
           {activeIndex < 2 && (
             <Button
-              className="bg-blue-500 text-white hover:bg-blue-200"
+              className=" bg-blue-400 text-white hover:bg-blue-700"
               disabled={checkStatus()}
               onClick={() => setActiveIndex(activeIndex + 1)}
             >
@@ -174,7 +174,7 @@ function CreateCourse  () {
           {activeIndex == 2 && (
             <Button 
             disabled={checkStatus()}
-            className="bg-blue-500 text-white hover:bg-blue-200"
+            className=" bg-blue-400 text-white hover:bg-blue-700"
             onClick={() => GenerateCourseLayout()}>
               Generate Course Layout
             </Button>
