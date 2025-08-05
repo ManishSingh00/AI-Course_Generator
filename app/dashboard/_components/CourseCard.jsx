@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { HiOutlineBookOpen } from "react-icons/hi2";
 import { HiMiniEllipsisVertical } from "react-icons/hi2";
-import DropdownOption from './DropdownOption';
+import DropdownOption from './DropDownOption';
 import { db } from '@/configs/db';
 import { CourseList } from '@/configs/schema';
 import { eq } from 'drizzle-orm';
