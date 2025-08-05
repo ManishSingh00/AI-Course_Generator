@@ -1,4 +1,4 @@
-# 📚 AI Course Creator – Full Stack Web Application
+# 📚 CourseCrafter – Full Stack Web Application
 A full-stack AI-powered course creation platform built with Next.js, React, and TailwindCSS.
 This application empowers users to generate custom learning courses using AI-generated content and curated YouTube videos — all in one place.
 
