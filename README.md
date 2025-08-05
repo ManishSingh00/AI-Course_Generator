@@ -29,3 +29,10 @@ YouTube API – Video search & integration
 🎥 YouTube Video Curation for relevant course materials.
 
 📊 Database Management with Drizzle ORM and PostgreSQL.
+
+## Live Demo :globe_with_meridians:
+
+<a href="https://ai-course-generator-manish-singh.vercel.app/">
+    <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
+</a>
+
